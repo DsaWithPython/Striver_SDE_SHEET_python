@@ -59,3 +59,19 @@ Next, move the slow and fast pointer simultaneously until the fast pointer reach
 Delete the node after slow by pointing slow's next to slow.next.next.
 
 ## 4. Add two numbers as linked list
+
+Have a sum and a carry.
+
+Loop till either of these is not 0.
+
+sum = sum % 10
+
+c1 = sum // 10
+
+create a node with value sum.
+
+## 5. Delete a given Node when a node is given
+
+Assign the value of node.next.val to node.val
+
+Then 
