@@ -74,4 +74,4 @@ create a node with value sum.
 
 Assign the value of node.next.val to node.val
 
-Then 
+Then assign node.next = node.next.next
