@@ -51,3 +51,11 @@ if arr[j]!=arr[i], increase i and update arr[i]==arr[j]
 After the loop ends, return i+1,that is the size of the unique elements.
 
 ## 5. Max consecutive ones
+
+We traverse through the array.
+
+If the current element is 1, add 1 to counter.
+
+Update max_count to max of maxcount and counter.
+
+If current element is 0,assign count to 0.
